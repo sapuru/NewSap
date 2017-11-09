@@ -789,6 +789,7 @@ h6 {
 #banner-content.row {
     padding-top: 170px;
     padding-bottom: 100px;
+    height:90vh;
 }
 
 #banner h1 {
