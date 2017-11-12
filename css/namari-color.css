@@ -15,7 +15,7 @@
 
 
 body {
-    background:#fff;
+    background:#f9f7f6;
 }
 
 
@@ -105,7 +105,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Icon Colors */
 
 .primary-color .icon i, .primary-color i {
-    color:#fff;
+    color:#f9f7f6;
 }
 
 
@@ -189,9 +189,9 @@ body {
 
 .section-subtitle {
     font-family: 'Cormorant', serif;
-    font-size: 16px;
-    font-weight:300;
-    color:#9c9c9c;
+    font-size: 18px;
+    font-weight:500;
+    color:#014656;
 }
 
 /* Testimonial */
@@ -281,6 +281,7 @@ h6 {
 .button:hover,  input[type="submit"]:hover {
     border-color:#f6a801;
     color:#f6a801;
+    background-color: #f9f7f6;
 }
 
 
@@ -305,6 +306,27 @@ h6 {
 
 /* Button Hover Color */
 
+#banner-contacto .button:hover {
+    color:#f6a801;
+    border-color:#f6a801;
+}
+
+#banner-contacto .button {
+    font-family: 'Cormorant', serif;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner-contacto .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
 #banner .button:hover {
     color:#f6a801;
     border-color:#f6a801;
@@ -320,6 +342,7 @@ h6 {
     font-size:12px;
     font-weight:normal;
     color:#999;
+    background:#f9f7f6;
 }
 
 /* Footer Icon Color */
