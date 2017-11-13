@@ -9,13 +9,26 @@
 7. Footer
 
 
+Paleta de colores:
+
+Negro: #1D1D1B
+Ocre: #FCBC00
+Golden: #FFDE09
+Lima: #EAE219
+Azul: #18878E
+Turquesa: #1EAFB2
+Celeste: #A1D5D3
+Neutro: #EDEDED
+Background: #FFFEF5;
+
+
 /*------------------------------------------------------------------------------------------*/
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
 
 
 body {
-    background:#f9f7f6;
+    background:#FFFEF5;
 }
 
 
@@ -105,7 +118,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Icon Colors */
 
 .primary-color .icon i, .primary-color i {
-    color:#f9f7f6;
+    color:#FFFEF5;
 }
 
 
@@ -281,7 +294,7 @@ h6 {
 .button:hover,  input[type="submit"]:hover {
     border-color:#f6a801;
     color:#f6a801;
-    background-color: #f9f7f6;
+    background-color: #FFFEF5;
 }
 
 
@@ -342,7 +355,7 @@ h6 {
     font-size:12px;
     font-weight:normal;
     color:#014656;
-    background:#f9f7f6;
+    background:#FFFEF5;
 }
 
 /* Footer Icon Color */
