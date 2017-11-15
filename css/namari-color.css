@@ -148,7 +148,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 
 body {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Abel', sans-serif, Arial, Helvetica;
     font-size:15px;
     font-weight:normal;
     color:#111;
@@ -176,15 +176,15 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Cormorant', serif;
-    font-size:62px;
+    font-family: 'margot', serif;
+    font-size:55px;
     line-height:60px;
     font-weight:800;
     color:#111;
 }
 
 #banner h2 {
-    font-family: 'Cormorant', serif;
+    font-family: 'aqua', serif;
     font-size:18px;
     font-weight:300;
     color:#111;
@@ -194,14 +194,14 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 34px;
     font-weight:700;
     color:#111;
 }
 
 .section-subtitle {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 18px;
     font-weight:500;
     color:#014656;
@@ -210,7 +210,7 @@ body {
 /* Testimonial */
 
 .testimonial q {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 17px;
     font-weight:300;
 }
@@ -223,42 +223,42 @@ body {
 /* Standard Headings h1-h6 */
 
 h1 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 40px;
     font-weight:300;
     color:#111;
 }
 
 h2 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 34px;
     font-weight:300;
     color:#111;
 }
 
 h3 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 30px;
     font-weight:700;
     color:#111;
 }
 
 h4 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 18px;
     font-weight:400;
     color:#111;
 }
 
 h5 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 16px;
     font-weight:400;
     color:#111;
 }
 
 h6 {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size: 14px;
     font-weight:400;
     color:#111;
@@ -275,7 +275,7 @@ h6 {
 /* Button Text */
 
 .button, input[type="submit"]  {
-    font-family: 'Cormorant', serif;
+    font-family: 'aqua', serif;
     font-size:14px;
     font-weight:bold;
     color:#111;
@@ -304,7 +304,7 @@ h6 {
 /* Button Text */
 
 #banner .button {
-    font-family: 'Cormorant', serif;
+    font-family: 'aqua', serif;
     font-size:16px;
     color:#111;
 }
@@ -330,7 +330,7 @@ h6 {
 }
 
 #banner-contacto .button {
-    font-family: 'Cormorant', serif;
+    font-family: 'aqua', serif;
     font-size:16px;
     color:#111;
 }
@@ -356,7 +356,7 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Cormorant', serif;
+    font-family: 'margot', serif;
     font-size:12px;
     font-weight:normal;
     color:#014656;

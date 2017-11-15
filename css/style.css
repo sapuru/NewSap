@@ -1,6 +1,397 @@
+
+
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'aqua';
+  src: url('../fonts/aqua.ttf');
+  src: url('../fonts/aqua.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'margot';
+  src: url('../fonts/Margot-RegularItalic.ttf');
+  src: url('../fonts/Margot-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+Paleta de colores:
+
+Negro: #1D1D1B
+Ocre: #FCBC00
+Golden: #FFDE09
+Lima: #EAE219
+Azul: #18878E
+Turquesa: #1EAFB2
+Celeste: #A1D5D3
+Neutro: #EDEDED
+Background: #FFFEF5;
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    background:#FFFEF5;
+}
+
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#f6a801;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#f6a801;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#f6a801;
+}
+
+/* Border Color */
+
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: #EAE219;
+}
+
+.pricing-block-content:hover {
+    border-color:#EAE219;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: #f6a801;
+    border-color: #f6a801;
+}
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:#f6a801;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;
+}
+
+.section-heading h2:after {
+    background:#f6a801;
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+    margin-top:30px;
+}
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#FFFEF5;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background-size:cover;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Abel', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:;
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:;
+    font-weight:;
+    color:;
+}
+
+*/
+
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'margot', serif;
+    font-size:55px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner h2 {
+    font-family: 'aqua', serif;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'margot', serif;
+    font-size: 34px;
+    font-weight:700;
+    color:#111;
+}
+
+.section-subtitle {
+    font-family: 'margot', serif;
+    font-size: 18px;
+    font-weight:500;
+    color:#014656;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'margot', serif;
+    font-size: 17px;
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#111;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'margot', serif;
+    font-size: 40px;
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'margot', serif;
+    font-size: 34px;
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'margot', serif;
+    font-size: 30px;
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'margot', serif;
+    font-size: 18px;
+    font-weight:400;
+    color:#111;
+}
+
+h5 {
+    font-family: 'margot', serif;
+    font-size: 16px;
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'margot', serif;
+    font-size: 14px;
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'aqua', serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#f6a801;
+    color:#f6a801;
+    background-color: #FFFEF5;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'aqua', serif;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner-contacto {
+  background: url("../images/banner-images/banner-image-3.png") no-repeat center top;
+  background-size:cover;
+}
+
+#banner-contacto .button:hover {
+    color:#f6a801;
+    border-color:#f6a801;
+}
+
+#banner-contacto .button {
+    font-family: 'aqua', serif;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner-contacto .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#f6a801;
+    border-color:#f6a801;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'margot', serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#014656;
+    background:#FFFEF5;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
+
+
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -15,7 +406,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Cormorant', serif;
+font-family: 'margot', serif;
 }
 
 body {
@@ -515,7 +906,8 @@ section {
 
 #header nav a {
     height: 71px;
-    line-height: 71px;
+    line-height: 86px;
+    font-weight:bold;
     display: block;
     padding: 0 10px;
 }
@@ -1620,519 +2012,71 @@ blockquote {
 
 /*Preloader*/
 
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff; /* change if the mask should have another color then white */
-    z-index: 99999; /* makes sure it stays on top */
+$spinnerSpeed: 3s;
+$doneSpeed: 3.1s;
+$shadow: darken(#2ec079, 3%);
+
+body { margin: 0; font-family: Tahoma, sans-serif; font-size: 26px; color: #fff; background-color: #C86C00; overflow: hidden; }
+
+.loader-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  &:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 50%; background: #2ec079; z-index: -1; transition: top 1.2s linear $doneSpeed; }
+  &:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 50%; background: #2ec079; z-index: -1; transition: bottom 1.2s linear $doneSpeed; }
+
+  &.done {
+    &:before { top: -50%; }
+    &:after { bottom: -50%; }
+  }
 }
 
-#status {
-    width: 110px;
-    height: 110px;
-    position: absolute;
-    left: 50%; /* centers the loading animation horizontally one the screen */
-    top: 50%; /* centers the loading animation vertically one the screen */
-    background-position: center;
-    margin: -55px 0 0 -55px; /* is width and height divided by two */
-    text-align: center;
+.progress { position: absolute; top: 50%; left: 50%;transform: translateX(-50%) translateY(-50%); transform-origin: center;
+  .progress__item {
+    text-align: center; width: 100px; height: 100px; line-height: 100px; border: 2px solid #fff; border-radius: 50%;
+
+    &:before { content: ''; position: absolute; top: 0; left: 50%; margin-top: -3px; margin-left: 0px; width: 45px; height: 45px; border-top: solid 10px #fff; border-right: solid 10px #fff; border-top-right-radius: 100%; transform-origin: left bottom;
+      -webkit-animation:spin $spinnerSpeed linear infinite; }
+  }
+
+  &.float {
+    .progress__item {
+      &:before { border-top-width: 2px; margin-top: 0px; height: 50px;  }
+    }
+    &.shadow {
+      &:before { border-top-width: 2px; margin-top: -41px; height: 50px;  }
+    }
+  }
+
+  &.shadow {
+    &:before { content: ''; position: absolute; top: 50%; left: 50%; margin: -43px 0 0 12px; width: 45px; height: 45px; border-top: solid 10px $shadow; border-right: solid 10px $shadow; border-top-right-radius: 100%; z-index: -1; transform-origin: left bottom;
+      -webkit-animation:spin $spinnerSpeed linear infinite; }
+
+    &:after { content: ''; position: absolute; top: 50%; left: 50%; width: 100px; height: 100px; color: $shadow; text-align: center; line-height: 100px; border: 2px solid $shadow; border-radius: 50%; margin: -40px 0 0 -40px; z-index: -1; transform-origin: center; }
+
+  }
+
+  &.done {
+    .progress__item { opacity: 0; -webkit-animation: done $doneSpeed; transition: opacity .3s linear $doneSpeed;
+      &:before { display: none; }
+    }
+    &:before { display: none; }
+    &:after { opacity: 0; -webkit-animation: done $doneSpeed; transition: opacity .15s linear $doneSpeed; }
+  }
 }
 
-/*!
- * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
- * Copyright 2015 Daniel Cardoso <@DanielCardoso>
- * Licensed under MIT
- */
-.la-ball-triangle-path,
-.la-ball-triangle-path > div {
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+
+@-webkit-keyframes done {
+    10%  { transform: scale(1.10); }
+    20%  { transform: scale(0.90); }
+    30%  { transform: scale(1.07); }
+    40%  { transform: scale(0.93); }
+    50%  { transform: scale(1.04);}
+    60%  { transform: scale(0.97);}
+    80%  { transform: scale(1.01);}
+    90%  { transform: scale(0.99);}
+    100% { transform: scale(1);}
 }
 
-.la-ball-triangle-path {
-    display: block;
-    font-size: 0;
-    color: #fff;
-}
-
-.la-ball-triangle-path.la-dark {
-    color: #333;
-}
-
-.la-ball-triangle-path > div {
-    display: inline-block;
-    float: none;
-    background-color: currentColor;
-    border: 0 solid currentColor;
-}
-
-.la-ball-triangle-path {
-    width: 32px;
-    height: 32px;
-}
-
-.la-ball-triangle-path > div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
-
-.la-ball-triangle-path > div:nth-child(1) {
-    -webkit-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-}
-
-.la-ball-triangle-path > div:nth-child(2) {
-    -webkit-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-}
-
-.la-ball-triangle-path > div:nth-child(3) {
-    -webkit-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-}
-
-.la-ball-triangle-path.la-sm {
-    width: 16px;
-    height: 16px;
-}
-
-.la-ball-triangle-path.la-sm > div {
-    width: 4px;
-    height: 4px;
-}
-
-.la-ball-triangle-path.la-2x {
-    width: 64px;
-    height: 64px;
-}
-
-.la-ball-triangle-path.la-2x > div {
-    width: 20px;
-    height: 20px;
-}
-
-.la-ball-triangle-path.la-3x {
-    width: 96px;
-    height: 96px;
-}
-
-.la-ball-triangle-path.la-3x > div {
-    width: 30px;
-    height: 30px;
-}
-
-/*
- * Animations
- */
-@-webkit-keyframes ball-triangle-path-ball-one {
-    0% {
-        -webkit-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-}
-
-@-moz-keyframes ball-triangle-path-ball-one {
-    0% {
-        -moz-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -moz-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -moz-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -moz-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-}
-
-@-o-keyframes ball-triangle-path-ball-one {
-    0% {
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-}
-
-@keyframes ball-triangle-path-ball-one {
-    0% {
-        -webkit-transform: translate(0, 220%);
-        -moz-transform: translate(0, 220%);
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        -moz-transform: translate(110%, 0);
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        -moz-transform: translate(220%, 220%);
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        -moz-transform: translate(0, 220%);
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-}
-
-@-webkit-keyframes ball-triangle-path-ball-two {
-    0% {
-        -webkit-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-}
-
-@-moz-keyframes ball-triangle-path-ball-two {
-    0% {
-        -moz-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -moz-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -moz-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -moz-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-}
-
-@-o-keyframes ball-triangle-path-ball-two {
-    0% {
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-}
-
-@keyframes ball-triangle-path-ball-two {
-    0% {
-        -webkit-transform: translate(110%, 0);
-        -moz-transform: translate(110%, 0);
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        -moz-transform: translate(220%, 220%);
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        -moz-transform: translate(0, 220%);
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        -moz-transform: translate(110%, 0);
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-}
-
-@-webkit-keyframes ball-triangle-path-ball-tree {
-    0% {
-        -webkit-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-}
-
-@-moz-keyframes ball-triangle-path-ball-tree {
-    0% {
-        -moz-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -moz-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -moz-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -moz-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-}
-
-@-o-keyframes ball-triangle-path-ball-tree {
-    0% {
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-}
-
-@keyframes ball-triangle-path-ball-tree {
-    0% {
-        -webkit-transform: translate(220%, 220%);
-        -moz-transform: translate(220%, 220%);
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
-    17% {
-        opacity: .25;
-    }
-    33% {
-        opacity: 1;
-        -webkit-transform: translate(0, 220%);
-        -moz-transform: translate(0, 220%);
-        -o-transform: translate(0, 220%);
-        transform: translate(0, 220%);
-    }
-    50% {
-        opacity: .25;
-    }
-    66% {
-        opacity: 1;
-        -webkit-transform: translate(110%, 0);
-        -moz-transform: translate(110%, 0);
-        -o-transform: translate(110%, 0);
-        transform: translate(110%, 0);
-    }
-    83% {
-        opacity: .25;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translate(220%, 220%);
-        -moz-transform: translate(220%, 220%);
-        -o-transform: translate(220%, 220%);
-        transform: translate(220%, 220%);
-    }
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
 }
 
 
