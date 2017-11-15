@@ -72,7 +72,7 @@ figure {
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    background: #014656;
+    background: #EAE219;
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -377,7 +377,7 @@ section {
 }
 
 #logo img {
-    max-height: 80px;
+    max-height: 70px;
     vertical-align: middle;
     margin-right: 15px;
 }

@@ -51,11 +51,11 @@ a:hover, #header.nav-solid nav a:hover {
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #f6a801;
+    background: #EAE219;
 }
 
 .pricing-block-content:hover {
-    border-color:#f6a801;
+    border-color:#EAE219;
 }
 
 
@@ -318,6 +318,11 @@ h6 {
 
 
 /* Button Hover Color */
+
+#banner-contacto {
+  background: url("../images/banner-images/banner-image-3.png") no-repeat center top;
+  background-size:cover;
+}
 
 #banner-contacto .button:hover {
     color:#f6a801;
